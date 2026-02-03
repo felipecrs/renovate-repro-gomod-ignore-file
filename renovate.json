@@ -1,5 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "https://raw.githubusercontent.com/felipecrs/renovate-repro-gomod-ignore-file/860576b48dd1966a848488d82897ab3c4f4adcfd/preset.json"
+  ],
   "postUpdateOptions": ["gomodTidy"],
   "packageRules": [
     {
