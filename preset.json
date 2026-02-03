@@ -1,0 +1,9 @@
+{
+  "packageRules": [
+    {
+      "description": "Enable dependencies from go datasource",
+      "matchDatasources": ["go"],
+      "enabled": true
+    }
+  ]
+}
